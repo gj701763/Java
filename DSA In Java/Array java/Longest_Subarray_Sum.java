@@ -9,16 +9,19 @@ import java.util.Scanner;
 public class Longest_Subarray_Sum {
 
     static int longestSum(int arr[], int k) {
-        int sum = 0;
-        for(int i = 0; i < arr.length; i++) {
-            sum += arr[i];
+        int n = arr.length;
+        int res = 0;
+        for(int i = 0; i < n; i++) {
+            int sum = 0; 
+            for(int j = i; j < n; j++) {
+                sum += arr[j];
+                if(sum == k) {
+                    int subleg = j - i + 1;
+                    res = Math.max(res, subleg);
+                }
+            }
         }
-
-        if(sum == k) {
-            return k;
-        }else{
-            return 0;
-        }
+        return res;
     }
 
     static void printArr(int arr[]) {
