@@ -6,6 +6,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "News",
+      "request": "launch",
+      "mainClass": "News",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "Array_value",
+      "request": "launch",
+      "mainClass": "Array_value",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "New",
+      "request": "launch",
+      "mainClass": "New",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "Duplicates1",
+      "request": "launch",
+      "mainClass": "Duplicates1",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "MultilevelInheritance",
+      "request": "launch",
+      "mainClass": "MultilevelInheritance",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
       "name": "Date",
       "request": "launch",
       "mainClass": "Date",

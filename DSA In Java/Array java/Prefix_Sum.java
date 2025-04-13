@@ -16,7 +16,7 @@ public class Prefix_Sum {
     // static int[] prefix_sumArray(int arr[]) {
 
     //     int n = arr.length;
-    //     int[] ans =  new int[n];
+    //     int[] ans =  new int[n
     //     ans[0] = arr[0];
     //     for(int i = 1; i < n; i++) {
     //         ans[i] = ans[i-1] + arr[i];
@@ -34,11 +34,11 @@ public class Prefix_Sum {
     }
     public static void main(String[] args) {
         try(Scanner sc = new Scanner(System.in)) {
-            System.out.println("Enter the size of array is : ");
+            System.out.print("Enter the size of array is : ");
             int n = sc.nextInt();
             int arr[] = new int[n];
 
-            System.out.println("Enter the "+n+" size of array is : ");
+            System.out.print("Enter the "+n+" size of array is : ");
             for(int i = 0; i < n; i++) {
                 arr[i] = sc.nextInt();
             }
@@ -46,17 +46,17 @@ public class Prefix_Sum {
             //printArray(arr);
            // int[] ans = prefix_sumArray(arr);
            int[] ans = prefix_sumArrayS(arr);
-            System.out.println("Sum of prefix array is : ");
+            System.out.print("Sum of prefix array is : ");
             printArray(ans);
-            System.out.println("Q number of query is : "); 
+            System.out.print("Q number of query is : "); 
             int q = sc.nextInt();
             while(q-- > 0) {
-                System.out.println("Enter the range : ");
+                System.out.print("Enter the range : ");
                 int l = sc.nextInt();
                 int r = sc.nextInt();
 
                 int sum = ans[r] - ans[l - 1];
-                System.out.println("Sum is : "+ sum);
+                System.out.print("Sum is : "+ sum);
             }
         }
     }

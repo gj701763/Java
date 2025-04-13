@@ -42,6 +42,7 @@ class Result extends Exam {
         getdata();
         getmark();
         System.out.println("The Total Percentage is : " + percentage + " % ");
+    
     }
 }
 
