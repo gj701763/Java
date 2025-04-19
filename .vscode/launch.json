@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Hashmap01",
+      "request": "launch",
+      "mainClass": "Hashmap01",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
       "name": "News",
       "request": "launch",
       "mainClass": "News",
