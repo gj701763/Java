@@ -1,4 +1,6 @@
 //  Implementation Of Multiple Inheritance Using Interfaces In JAVA
+package Java_Practical;
+
 
 interface Circle {
     void areaOfcircle(int r); // r = redius

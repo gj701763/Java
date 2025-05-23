@@ -1,8 +1,7 @@
 
 // Java AWT Program for Hello World 
 import java.awt.*;
-import java.awt.event.WindowAdapter;
-import java.awt.event.WindowEvent;
+
 
 // Driver Class 
 public class AWT {

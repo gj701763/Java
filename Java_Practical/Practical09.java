@@ -13,6 +13,8 @@
 // 		}
 // 	}
 // }
+package Java_Practical;
+
 
 class thread1 extends Thread {
 	public void run() {

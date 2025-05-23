@@ -1,3 +1,5 @@
+package Java_Practical;
+
 import java.util.*;
 public class Practical10 {
     static void DivideByZero() {

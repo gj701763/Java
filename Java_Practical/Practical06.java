@@ -1,4 +1,6 @@
 //   Programs for addition and multiplication of matrices.
+package Java_Practical;
+
 
 import java.util.*;
 public class Practical06 {

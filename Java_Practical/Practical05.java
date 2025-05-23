@@ -1,6 +1,9 @@
 
 // 1) Sorting an array of String in ascending order.
+package Java_Practical;
+
 import java.util.*;
+
 
 public class Practical05 {
 

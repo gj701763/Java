@@ -1,3 +1,5 @@
+package OOP;
+
 import java.util.Scanner;
 interface A {
     void add(int a,int b);

@@ -6,6 +6,8 @@ public class Strings {
         String firstName = "Gajanan";
         String lastName = "Jadhav";
         String fullName = firstName + " "+ lastName;
+        System.out.println(sc);
+        System.out.println(fullName);
         // Find the Lenght of fullName
         // lenght()
         //System.out.println("Your FullName lenght is  : "+ fullName.length());

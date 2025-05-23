@@ -1,4 +1,6 @@
 /*Java Program to find the frequency of characters in a string*/
+package Java_Practical;
+
 import java.util.*;
 public class Practical05B  
 {  

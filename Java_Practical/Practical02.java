@@ -1,3 +1,5 @@
+package Java_Practical;
+
 //                               Method Overriding
 // Java Program to implement
 
@@ -23,12 +25,10 @@ class Practical02 {
 		Dog d1 = new Dog();
 		Animal a1 = new Animal();
 
-		// d1.eat();
-		// a1.eat();
+		d1.eat();
+		a1.eat();
 
-		// Animal animal = new Dog();
-		// eat() method of animal class is overridden by
-		// base class eat()
-		// animal.eat();
+		Animal animal = new Dog();
+		animal.eat();
 	}
 }

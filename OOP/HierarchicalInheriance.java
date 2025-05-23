@@ -7,6 +7,7 @@
 //                     /      \             /     \
 //                    /        \           /       \
 //                 Class D    Class G  Class E   Class
+package OOP;
 
 import java.util.Scanner;
 

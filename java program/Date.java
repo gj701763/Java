@@ -1,7 +1,6 @@
 
 //package java program;
 import java.text.SimpleDateFormat;
-import java.util.*;
 
 public class Date {
     public static void main(String[] args) {

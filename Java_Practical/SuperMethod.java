@@ -1,3 +1,5 @@
+
+package Java_Practical;
 class Teacher {
     public void study() {
         System.out.println("Called the teacher funtion !!!"); 

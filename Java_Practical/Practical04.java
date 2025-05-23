@@ -1,3 +1,5 @@
+package Java_Practical;
+
 /* Practical which illustrates the implementation of inheritance by method overriding, 
 Super Constructor and Super Keyword, Abstract class(use any application) */
 

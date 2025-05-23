@@ -1,4 +1,6 @@
 // Program for sorting and searching a list of element 
+package Java_Practical;
+
 import java.util.*;
 public class Practical07 {
 

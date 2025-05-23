@@ -6,7 +6,7 @@ public class finals {
 
         // reassigning value to age variable
         // gives compile time error
-        age = 55;
+       int  age = 55;
         System.out.println(age);
     }
 

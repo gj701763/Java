@@ -1,3 +1,5 @@
+package Java_Practical;
+
 class marks {
     public int math = 99;
 }

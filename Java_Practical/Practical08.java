@@ -1,7 +1,6 @@
 // Program to create packages in JAVA.
 
 package Java_Practical;
-import Java_Practical.*;
 
 public class Practical08 {
     public static void main(String[] args) {
