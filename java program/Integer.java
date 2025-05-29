@@ -7,4 +7,9 @@ public class Integer {
         return null;
     }
 
+    public static char[] toBinaryString(int c) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'toBinaryString'");
+    }
+
 }

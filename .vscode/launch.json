@@ -6,6 +6,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Clear",
+      "request": "launch",
+      "mainClass": "BitManipulation.Clear",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "Get",
+      "request": "launch",
+      "mainClass": "BitManipulation.Get",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "Set",
+      "request": "launch",
+      "mainClass": "BitManipulation.Set",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "Update",
+      "request": "launch",
+      "mainClass": "BitManipulation.Update",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
       "name": "string",
       "request": "launch",
       "mainClass": "InterviewQue.String.string",

@@ -12,6 +12,7 @@ public class Practical10 {
         }
     }
 
+    @SuppressWarnings("null")
     static void NullString() {
         String str = null;
         try{
