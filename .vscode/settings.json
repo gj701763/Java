@@ -1,4 +1,7 @@
 {
     "java.debug.settings.onBuildFailureProceed": true,
-    "java.compile.nullAnalysis.mode": "automatic"
+    "java.compile.nullAnalysis.mode": "automatic",
+    "workbench.editor.defaultBinaryEditor": "java.formatterSettingsEditor",
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "notebook.defaultFormatter": "danielpinto8zz6.c-cpp-compile-run"
 }

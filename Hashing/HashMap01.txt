@@ -1,0 +1,26 @@
+HashMap := "It stores data in key-value pairs, allowing for efficient retrieval of values based on their associated keys."
+
+-> Hashing -> data change one from to another form sach that abc -> 123 .
+-> *HashMap store by with the help or Array of Linked List.
+-> Time Complexity of HashMap is "O(1)".
+-> Key-Value Pairs: Data is stored as pairs, where each key is unique and maps to a specific value.
+-> HashMap allows one null key and multiple null values.
+-> Bucket Assignment: The hash code is used to determine the "bucket"(index in an internal array) where the key-value pair will be stored.
+
+-> use in Password, like create a account on google, instagram, microsoft etc.
+
+-> Operation of HashMap
+  -> put(key, value): Adds a key-value pair to the map.
+  -> get(key): Retrieves the value associated with the given key.
+  -> remove(key): Removes the key-value pair associated with the given key.
+  -> containsKey(key): Checks if the map contains the given key.
+  -> containsValue(value): Checks if the map contains the given value.
+  -> size(): Returns the number of key-value pairs in the map.
+  -> isEmpty(): Checks if the map is empty.
+  -> clear(): Removes all key-value pairs from the map.
+  -> keySet(): Returns a Set of all keys in the map.
+  -> values(): Returns a Collection of all values in the map.
+  -> entrySet(): Returns a Set of all key-value pairs in the map, represented as Map.Entry objects.
+  -> putAll(Map m): Copies all of the mappings from the specified map to this map.
+  -> replace(key, value): Replaces the value for the specified key only if it is currently mapped to some value.
+   
