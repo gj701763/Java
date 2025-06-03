@@ -6,6 +6,111 @@
   "configurations": [
     {
       "type": "java",
+      "name": "TripletSum",
+      "request": "launch",
+      "mainClass": "Hashing.Questions.TripletSum",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "LargestSubarr",
+      "request": "launch",
+      "mainClass": "Hashing.Questions.LargestSubarr",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "TwoSum",
+      "request": "launch",
+      "mainClass": "Hashing.Questions.TwoSum",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "IsomorphicStr",
+      "request": "launch",
+      "mainClass": "Hashing.Questions.IsomorphicStr",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "Anagram",
+      "request": "launch",
+      "mainClass": "Hashing.Questions.Anagram",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "Prefix_Sum",
+      "request": "launch",
+      "mainClass": "Prefix_Sum",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "Itineraryarray",
+      "request": "launch",
+      "mainClass": "Hashing.Questions.Itineraryarray",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "UnionAndIntersectionArr",
+      "request": "launch",
+      "mainClass": "Hashing.Hashset.UnionAndIntersectionArr",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "Union",
+      "request": "launch",
+      "mainClass": "Hashing.Hashset.Union",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "UnionArr",
+      "request": "launch",
+      "mainClass": "Hashing.Hashset.UnionArr",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "MostFrequestEvenElement",
+      "request": "launch",
+      "mainClass": "Hashing.Questions.MostFrequestEvenElement",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "MajorityElements",
+      "request": "launch",
+      "mainClass": "Hashing.Questions.MajorityElements",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "HashMapImple",
+      "request": "launch",
+      "mainClass": "Hashing.HashMap.HashMapImple",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "Hashset01",
+      "request": "launch",
+      "mainClass": "Hashing.Hashset.Hashset01",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "helloworld",
+      "request": "launch",
+      "mainClass": "helloworld",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
       "name": "Clear",
       "request": "launch",
       "mainClass": "BitManipulation.Clear",

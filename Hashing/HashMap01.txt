@@ -10,7 +10,7 @@ HashMap := "It stores data in key-value pairs, allowing for efficient retrieval 
 -> use in Password, like create a account on google, instagram, microsoft etc.
 
 -> Operation of HashMap
-  -> put(key, value): Adds a key-value pair to the map.
+  -> put(key, value): Adds a key-value pair to the map. "O(lambda)"
   -> get(key): Retrieves the value associated with the given key.
   -> remove(key): Removes the key-value pair associated with the given key.
   -> containsKey(key): Checks if the map contains the given key.

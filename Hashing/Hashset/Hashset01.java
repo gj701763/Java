@@ -10,7 +10,6 @@ public class Hashset01 {
         set.add(1);
         set.add(2);
         set.add(3);
-
         //Searching
 
         if(set.contains(4)) {
@@ -31,6 +30,7 @@ public class Hashset01 {
 
         /// Iterator
         
+        @SuppressWarnings("rawtypes")
         Iterator it = set.iterator();
         while(it.hasNext()) {
             System.out.println(it.next());
