@@ -1,13 +1,13 @@
 import java.util.*;
 
 public class News {
-    public static void main(String args[]) {
-        int n = 5;
-        int pos = 1;
-        int bitMask = 1<<pos;
+    static int[] nums; 
 
-        int newNumber = bitMask | n;
-        System.out.println(newNumber);
-        
-    } 
+public static void main(String args[])
+
+{
+
+  System.out.println(nums.length);
+
+}
 }

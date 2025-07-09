@@ -6,6 +6,48 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MaxSum",
+      "request": "launch",
+      "mainClass": "MaxSum",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "InsertionSort",
+      "request": "launch",
+      "mainClass": "InsertionSort",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "StudentMarks",
+      "request": "launch",
+      "mainClass": "AnudipAssignments.StudentMarks",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "PrimitiveDataTypes",
+      "request": "launch",
+      "mainClass": "AnudipAssignments.PrimitiveDataTypes",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "DuplicateElement",
+      "request": "launch",
+      "mainClass": "Hashing.Questions.DuplicateElement",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "LongestSubString",
+      "request": "launch",
+      "mainClass": "Hashing.Questions.LongestSubString",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
       "name": "TripletSum",
       "request": "launch",
       "mainClass": "Hashing.Questions.TripletSum",

@@ -17,11 +17,12 @@ public class Hashset01 {
         }else{
             System.out.println("no");
         }
+        System.out.println(set.getClass());
 
         // count
 
         System.out.println("Size of set is : " + set.size());
-        //print set
+        //print set1
         System.out.println(set);
 
         // remove 
