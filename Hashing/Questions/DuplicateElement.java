@@ -33,13 +33,13 @@ public class DuplicateElement {
     }
 
     
-    public boolean containsNearbyAlmostDuplicate(int[] arr, int indexDiff, int valueDiff) {
+    public static boolean containsNearbyAlmostDuplicate(int[] arr, int indexDiff, int valueDiff) {
         HashMap<Integer,Integer> m = new HashMap<>();
         for(int i = 0; i < arr.length; i++) {
             
-            if(Math.acos((long)i - m.get(arr[i]) <= indexDiff) && Math.abs(arr[i] - m.containsValue(arr[i]) <= valueDiff))
+            //if(Math.abs((long)i - m.get(arr[i]) <= indexDiff) && Math.abs(arr[i] - m.containsValue(arr[i]) <= valueDiff))
             return true;
-            m.put(arr[i], i);
+            //m.put(arr[i], i);
         }
         
         

@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "StackIMPUArryList",
+      "request": "launch",
+      "mainClass": "StackIMPUArryList",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
       "name": "MaxSum",
       "request": "launch",
       "mainClass": "MaxSum",
