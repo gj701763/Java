@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Merge_Sort",
+      "request": "launch",
+      "mainClass": "Merge_Sort",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "MergeToSortedArray",
+      "request": "launch",
+      "mainClass": "MergeToSortedArray",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
       "name": "StackIMPUArryList",
       "request": "launch",
       "mainClass": "StackIMPUArryList",
