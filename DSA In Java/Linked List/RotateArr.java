@@ -62,7 +62,7 @@ public class RotateArr {
         int k = sc.nextInt();
         head = rotateArr(head, k);
         print(head);
-        sc.close();
+        sc.close(); 
 
     }
 }
