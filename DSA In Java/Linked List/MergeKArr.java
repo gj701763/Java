@@ -16,41 +16,39 @@
 
 public class MergeKArr {
 
-    public static class ListNode {
+    public static class ListNode{
         int data;
         ListNode next;
-
         ListNode(int data) {
             this.data = data;
         }
     }
-
     public static ListNode buildList(int[] nums) {
-        ListNode dummy = new ListNode(0);
-        ListNode current = dummy;
-        for (int num : nums) {
-            current.next = new ListNode(num);
-            current = current.next;
-        }
-        return dummy.next; // Return the head of the actual list
+    ListNode dummy = new ListNode(0);
+    ListNode current = dummy;
+    for (int num : nums) {
+        current.next = new ListNode(num);
+        current = current.next;
     }
+    return dummy.next;  // Return the head of the actual list
+}
+  public static void main(String[] args) {
+    ListNode[] arr = new ListNode[] {
+        buildList(new int[] {1, 4, 5}),
+        buildList(new int[] {1, 3, 4}),
+        buildList(new int[] {2, 6})
+    };
 
-    public static void main(String[] args) {
-        ListNode[] arr = new ListNode[] {
-                buildList(new int[] { 1, 4, 5 }),
-                buildList(new int[] { 1, 3, 4 }),
-                buildList(new int[] { 2, 6 })
-        };
+    ListNode dummy = new ListNode(0);
+    ListNode tail = dummy;
 
-        // Print each list to verify
-        for (ListNode head : lists) {
+    // Print each list to verify
+    for (ListNode head : arr) {
         while (head != null) {
-            tail.next = new ListNode(head.val);  // copy node
+            tail.next = new ListNode(head.data);
             tail = tail.next;
             head = head.next;
         }
     }
-
-    return dummy.next;
-    }
+}
 }
