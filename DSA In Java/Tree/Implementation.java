@@ -1,5 +1,5 @@
 //package DSA In Java.Tree;
-
+import java.util.*;
 public class Implementation {
 
     static class  Node {
@@ -60,6 +60,32 @@ public class Implementation {
         postorder(root.right);
         System.out.print(root.data+" ");
     }
+
+    public static void levelOrder(Node root) {
+        if(root == null) return;
+        Queue<Node> a = new LinkedList<>();
+        a.add(root);
+        a.add(null);
+        while (!a.isEmpty()) {
+            Node currNode = a.remove();
+            if(currNode == null) {
+                System.out.println();
+                if(a.isEmpty()) {
+                    break;
+                }else{
+                    a.add(null);
+                }
+            }else{
+                System.out.print(currNode.data+ " ");
+                if(currNode.left != null) {
+                    a.add(currNode.left);
+                }
+                if(currNode.right != null) {
+                    a.add(currNode.right);
+                }
+            }
+        }
+    }
     public static void main(String[] args) {
         int node[] = {2,3,4,5,4,-1,-1,3,4,-1,4,5,6,-1,-1,4,6,8};
         BinaryTree tree = new BinaryTree();
@@ -69,7 +95,7 @@ public class Implementation {
         System.out.println();
         inorder(root);
         System.out.println();
-        postorder(root);
+        levelOrder(root);
         
     }
 }
