@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "SumOFNnumber",
+      "request": "launch",
+      "mainClass": "Recursion.SumOFNnumber",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "FactorialN",
+      "request": "launch",
+      "mainClass": "Recursion.FactorialN",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
       "name": "PrintNumber",
       "request": "launch",
       "mainClass": "Recursion.PrintNumber",
