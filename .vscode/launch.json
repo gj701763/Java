@@ -6,6 +6,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "OperationInArr",
+      "request": "launch",
+      "mainClass": "OperationInArr",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "Sum3Problem",
+      "request": "launch",
+      "mainClass": "Sum3Problem",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "SortedArr",
+      "request": "launch",
+      "mainClass": "Recursion.SortedArr",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "Fibonacci",
+      "request": "launch",
+      "mainClass": "Recursion.Fibonacci",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "New",
+      "request": "launch",
+      "mainClass": "Tacks.New",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
       "name": "SumOFNnumber",
       "request": "launch",
       "mainClass": "Recursion.SumOFNnumber",
