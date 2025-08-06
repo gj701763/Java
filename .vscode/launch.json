@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "SubsetArr",
+      "request": "launch",
+      "mainClass": "SubsetArr",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "BinarySearch",
+      "request": "launch",
+      "mainClass": "Recursion.BinarySearch",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
       "name": "OperationInArr",
       "request": "launch",
       "mainClass": "OperationInArr",

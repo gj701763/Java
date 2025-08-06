@@ -1,4 +1,4 @@
-package Recursion;
+
 
 public class PrintNumber {
     public static void num(int n) {
