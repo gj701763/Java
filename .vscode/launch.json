@@ -6,6 +6,76 @@
   "configurations": [
     {
       "type": "java",
+      "name": "NumTriangle",
+      "request": "launch",
+      "mainClass": "NumTriangle",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "ReverStarTriangle",
+      "request": "launch",
+      "mainClass": "ReverStarTriangle",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "OddNumTriangle",
+      "request": "launch",
+      "mainClass": "OddNumTriangle",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "BinaryTriangle",
+      "request": "launch",
+      "mainClass": "BinaryTriangle",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "FloydsTriangle",
+      "request": "launch",
+      "mainClass": "FloydsTriangle",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "StarCross",
+      "request": "launch",
+      "mainClass": "StarCross",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "StarPlus",
+      "request": "launch",
+      "mainClass": "StarPlus",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "HollowRect",
+      "request": "launch",
+      "mainClass": "HollowRect",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "StarSquare",
+      "request": "launch",
+      "mainClass": "StarSquare",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "StarRectangle",
+      "request": "launch",
+      "mainClass": "StarRectangle",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
       "name": "SubsetArr",
       "request": "launch",
       "mainClass": "SubsetArr",
