@@ -1,12 +1,22 @@
+import java.util.*;
 import java.util.Arrays;
 
 public class New {
-    public static void main(String[] args) {
-        for(int i = 0; i < 3; i++) {
-            for(int j = 0; j < 5; j++) {
-                System.out.print("*");
+
+    public static int duplicate(int arr[]) {
+        
+        int n = arr.length;
+        Arrays.sort(arr);
+        for(int i = 1; i < n; i++) {
+            if(arr[i] == arr[i-1]) {
+                return arr[i];
             }
-            System.out.println();
         }
+        return -1;
+    }
+    public static void main(String[] args) {
+       int arr[] = {1,2,2,3,3};
+       System.out.println(duplicate(arr));
+
     }
 }

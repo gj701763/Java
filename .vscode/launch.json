@@ -6,6 +6,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "NumSpiral",
+      "request": "launch",
+      "mainClass": "NumSpiral",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "Diamond",
+      "request": "launch",
+      "mainClass": "Diamond",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "ReversTriangle",
+      "request": "launch",
+      "mainClass": "ReversTriangle",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "RemovingCount",
+      "request": "launch",
+      "mainClass": "RemovingCount",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
       "name": "NumTriangle",
       "request": "launch",
       "mainClass": "NumTriangle",
