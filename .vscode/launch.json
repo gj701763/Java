@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ProductofArray",
+      "request": "launch",
+      "mainClass": "ProductofArray",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "TwoSum",
+      "request": "launch",
+      "mainClass": "TwoSum",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "Target_sum",
+      "request": "launch",
+      "mainClass": "Target_sum",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
       "name": "NumSpiral",
       "request": "launch",
       "mainClass": "NumSpiral",
