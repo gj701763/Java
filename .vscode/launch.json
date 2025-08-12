@@ -6,6 +6,48 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Sort",
+      "request": "launch",
+      "mainClass": "Sort",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "BinaryDate",
+      "request": "launch",
+      "mainClass": "BinaryDate",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "Replace",
+      "request": "launch",
+      "mainClass": "Replace",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "StringPresent",
+      "request": "launch",
+      "mainClass": "StringPresent",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "GroupAdd",
+      "request": "launch",
+      "mainClass": "GroupAdd",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "LongestConsecutiveSubsequentions",
+      "request": "launch",
+      "mainClass": "LongestConsecutiveSubsequentions",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
       "name": "ProductofArray",
       "request": "launch",
       "mainClass": "ProductofArray",
