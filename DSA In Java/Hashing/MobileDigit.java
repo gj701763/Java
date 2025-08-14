@@ -5,39 +5,29 @@ import java.util.*;
 public class MobileDigit {
 
     public static List<String> letterCombinations(String digits) {
-        String arr[] = { "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz" };
-        Map<Integer, String> map = new HashMap<>();
-        List<String> list = new ArrayList<>();
+        if (digits == null || digits.isEmpty()) return new ArrayList<>();
 
-        if (digits == null || digits.isEmpty()) {
-            return list;
+        String[] arr = { "","", "abc", "def", "ghi", "jkl","mno", "pqrs", "tuv", "wxyz" };
+
+        List<String> result = new ArrayList<>();
+        result.add(""); // start with empty string
+
+        for (char digitChar : digits.toCharArray()) {
+            int digit = digitChar - '0';
+            String letters = arr[digit];
+
+            List<String> temp = new ArrayList<>();
+            for (String prefix : result) {
+                for (char letter : letters.toCharArray()) {
+                    temp.add(prefix + letter);
+                }
+            }
+            result = temp; // move to next level
         }
 
-        int idx = 0;
-        for (int i = 2; i <= 9; i++) {
-            map.put(i, arr[idx++]);
-        }
-
-        backtrack(map, digits, 0, new StringBuilder(), list);
-        return list;
+        return result;
     }
 
-    private static void backtrack(Map<Integer, String> map, String digits, int index, StringBuilder path, List<String> list) {
-        // Base case: if we've formed a combination of full length
-        if (index == digits.length()) {
-            list.add(path.toString());
-            return;
-        }
-
-        int digit = digits.charAt(index) - '0'; // convert char to int
-        String possibleLetters = map.get(digit);
-
-        for (char ch : possibleLetters.toCharArray()) {
-            path.append(ch);              // choose
-            backtrack(map, digits, index + 1, path, list); // explore
-            path.deleteCharAt(path.length() - 1);          // un-choose (backtrack)
-        }
-    }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
