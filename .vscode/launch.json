@@ -6,6 +6,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MobileDigit",
+      "request": "launch",
+      "mainClass": "MobileDigit",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "PrimeNo",
+      "request": "launch",
+      "mainClass": "PrimeNo",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "DivisibleSumDiff",
+      "request": "launch",
+      "mainClass": "DivisibleSumDiff",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "CountAndSay",
+      "request": "launch",
+      "mainClass": "CountAndSay",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "Operation",
+      "request": "launch",
+      "mainClass": "Operation",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
       "name": "RemoveDupl",
       "request": "launch",
       "mainClass": "RemoveDupl",

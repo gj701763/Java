@@ -35,11 +35,11 @@ public class DivisibleSumDiff {
     }
 
     public static void main(String[] args) {
-        int n = 100;
+        int n = 10;
         int m = 3;
        //int ans = differenceOfSums(n,m);
        int ans = remainder(n);
-       //System.out.println(ans);
+       System.out.println(ans);
        System.out.println(17*7);
     }
     
