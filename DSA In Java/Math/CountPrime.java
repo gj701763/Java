@@ -5,9 +5,7 @@ public class CountPrime {
     public  static int[] countPrimes(int n) {
         
         boolean prime[] = new boolean[n+1];
-        for (int i = 0; i <= n; i++) {
-            prime[i] = true;
-        }
+        Arrays.fill(prime, true);
 
         for (int p = 2; p * p <= n; p++) {
             if (prime[p]) {
@@ -27,6 +25,8 @@ public class CountPrime {
         for (int p = 2; p < n; p++) {
             if (prime[p]) res[idx++] = p;
         }
+
+        System.out.println(count);
  
         return res;
 

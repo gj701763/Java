@@ -6,6 +6,76 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MinPathSum",
+      "request": "launch",
+      "mainClass": "MinPathSum",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "MaximumPath",
+      "request": "launch",
+      "mainClass": "MaximumPath",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "NumberOfPath",
+      "request": "launch",
+      "mainClass": "NumberOfPath",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "MinCoast",
+      "request": "launch",
+      "mainClass": "MinCoast",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "HouseRobber2",
+      "request": "launch",
+      "mainClass": "HouseRobber2",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "StickerThief",
+      "request": "launch",
+      "mainClass": "StickerThief",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "FibonacciS",
+      "request": "launch",
+      "mainClass": "FibonacciS",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "Changing",
+      "request": "launch",
+      "mainClass": "Changing",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "CombinationSum2",
+      "request": "launch",
+      "mainClass": "CombinationSum2",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "CominationSum",
+      "request": "launch",
+      "mainClass": "CominationSum",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
       "name": "CountPrime",
       "request": "launch",
       "mainClass": "CountPrime",
