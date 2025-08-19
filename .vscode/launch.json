@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MinPath",
+      "request": "launch",
+      "mainClass": "MinPath",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "JumpGame",
+      "request": "launch",
+      "mainClass": "JumpGame",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
       "name": "MinPathSum",
       "request": "launch",
       "mainClass": "MinPathSum",
