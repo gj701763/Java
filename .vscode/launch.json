@@ -6,6 +6,83 @@
   "configurations": [
     {
       "type": "java",
+      "name": "SnakePattern",
+      "request": "launch",
+      "mainClass": "SnakePattern",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "PrintInColumnWise",
+      "request": "launch",
+      "mainClass": "PrintInColumnWise",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "RowWithMaxSum",
+      "request": "launch",
+      "mainClass": "RowWithMaxSum",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "KthMissingEle",
+      "request": "launch",
+      "mainClass": "KthMissingEle",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "SearchIn2Darr",
+      "request": "launch",
+      "mainClass": "SearchIn2Darr",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "SingleAmongDou",
+      "request": "launch",
+      "mainClass": "SingleAmongDou",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "SquareRoot",
+      "request": "launch",
+      "mainClass": "SquareRoot",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "MinimalSubArr",
+      "request": "launch",
+      "mainClass": "MinimalSubArr",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "FloorIndexOfA",
+      "request": "launch",
+      "mainClass": "FloorIndexOfA",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "SearchIndices",
+      "request": "launch",
+      "mainClass": "SearchIndices",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "BinarySearch_firth_orr",
+      "request": "launch",
+      "mainClass": "BinarySearch_firth_orr",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
       "name": "MinPath",
       "request": "launch",
       "mainClass": "MinPath",

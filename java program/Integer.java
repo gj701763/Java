@@ -12,4 +12,9 @@ public class Integer {
         throw new UnsupportedOperationException("Unimplemented method 'toBinaryString'");
     }
 
+    public int intValue() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'intValue'");
+    }
+
 }

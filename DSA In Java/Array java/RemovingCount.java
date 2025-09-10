@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Arrays;
 /*
  * Given an integer array arr, return the mean of the remaining integers after 
  * removing the smallest 5% and the largest 5% of the elements.

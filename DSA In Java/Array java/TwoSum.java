@@ -1,4 +1,6 @@
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Arrays;
 public class TwoSum {
 
     public static int[] twoSum(int arr[], int k) {
@@ -19,9 +21,9 @@ public class TwoSum {
         for(int i = 0; i < n; i++) {
             int diff = target - arr[i];
             if(map.containsKey(diff)) {
-                return new int[] {map.get(diff), i};
+                return new int[] {map.get(diff).intValue(), i};
             }
-            map.put(arr[i], i);
+            //map.put(arr[i], i);
         }
 
         return null;

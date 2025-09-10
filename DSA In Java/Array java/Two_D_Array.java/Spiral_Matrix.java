@@ -56,7 +56,7 @@ public class Spiral_Matrix {
             }
             System.out.println("Matrix in the form of Spiral order is : ");
             spiralmatrixis(m, r, c);
-            //printMatrix(m, r, c);
+            printMatrix(m, r, c);
         }
     }
 }

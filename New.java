@@ -1,26 +1,26 @@
-import java.util.*;
-import java.util.Arrays;
-
 public class New {
 
-    public static int duplicate(int arr[]) {
-        
-        int max = arr[0];
-        int curr = arr[0];
-        for(int i = 1; i < arr.length; i++) {
-            curr = Math.max(arr[i], curr+arr[i]);
-            max = Math.max(curr, max);
+    public static int binarySearch(int arr[], int tar) {
+        int n = arr.length;
+        int left = 0;
+        int right = n-1;
+        while (left <= right) { 
+            int mid = left + (right - left) / 2;
+
+            if(arr[mid] == tar) {
+                return mid;
+            }else if (arr[mid] > tar) {
+                right = mid - 1;
+            }else{
+                left = mid+1;
+            }
         }
 
-        return max;
+        return -1;
     }
+    
     public static void main(String[] args) {
-       Integer arr[] = {1,2,2,3,3};
-       Arrays.sort(arr, (a, b) -> b - a);
-       for(int i = 0; i < arr.length; i++) {
-        System.out.print(arr[i]+" ");
-       }
-       System.out.println();
-
+       int arr[] = {2,4,6,8,9,77,88};
+       System.out.println(binarySearch(arr, 88));
     }
 }
