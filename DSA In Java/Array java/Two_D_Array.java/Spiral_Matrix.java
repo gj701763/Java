@@ -11,7 +11,9 @@ public class Spiral_Matrix {
         }
     }
 
-    static void spiralmatrixis(int m[][], int r, int c) {
+    static void spiralmatrixis(int m[][]) {
+        int r = m.length;
+        int c = m[0].length;
         int topr = 0, bottomr = r-1, leftc = 0, rightc = c-1;
         int telement = 0;
         int n = r * c;
@@ -55,7 +57,7 @@ public class Spiral_Matrix {
                 }
             }
             System.out.println("Matrix in the form of Spiral order is : ");
-            spiralmatrixis(m, r, c);
+            spiralmatrixis(m);
             printMatrix(m, r, c);
         }
     }

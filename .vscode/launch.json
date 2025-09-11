@@ -6,6 +6,55 @@
   "configurations": [
     {
       "type": "java",
+      "name": "DiagonalSum",
+      "request": "launch",
+      "mainClass": "DiagonalSum",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "Perimeter",
+      "request": "launch",
+      "mainClass": "Perimeter",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "SetMatrixZeros",
+      "request": "launch",
+      "mainClass": "SetMatrixZeros",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "Spiral_Matrix",
+      "request": "launch",
+      "mainClass": "Spiral_Matrix",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "Gst",
+      "request": "launch",
+      "mainClass": "Gst",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "PascalTringel",
+      "request": "launch",
+      "mainClass": "PascalTringel",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "TwoDPrinting",
+      "request": "launch",
+      "mainClass": "TwoDPrinting",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
       "name": "SnakePattern",
       "request": "launch",
       "mainClass": "SnakePattern",
