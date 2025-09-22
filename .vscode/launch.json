@@ -6,6 +6,69 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CheckStrAcronymWords",
+      "request": "launch",
+      "mainClass": "CheckStrAcronymWords",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "MaxNumWordsFoundSent",
+      "request": "launch",
+      "mainClass": "MaxNumWordsFoundSent",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "ReversePrefix",
+      "request": "launch",
+      "mainClass": "ReversePrefix",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "ChangeStr",
+      "request": "launch",
+      "mainClass": "ChangeStr",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "ColumnTitle",
+      "request": "launch",
+      "mainClass": "ColumnTitle",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "StorFre",
+      "request": "launch",
+      "mainClass": "StorFre",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "Shift2DGrid",
+      "request": "launch",
+      "mainClass": "Shift2DGrid",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "ListSorting",
+      "request": "launch",
+      "mainClass": "ListSorting",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "TypesBitWiseO",
+      "request": "launch",
+      "mainClass": "BitManipulation.TypesBitWiseO",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
       "name": "DiagonalSum",
       "request": "launch",
       "mainClass": "DiagonalSum",
