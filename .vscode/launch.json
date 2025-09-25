@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "SortStrVowels",
+      "request": "launch",
+      "mainClass": "SortStrVowels",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "Fre",
+      "request": "launch",
+      "mainClass": "Hashing.HashMap.Fre",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
       "name": "CheckStrAcronymWords",
       "request": "launch",
       "mainClass": "CheckStrAcronymWords",
