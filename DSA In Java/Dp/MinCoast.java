@@ -14,6 +14,11 @@ public class MinCoast {
         return Math.min(min(cost, 0, dp), min(cost, 1, dp));
     }
 
+
+
+
+    
+
     public static int minCostTB(int cost2[]) {
         int n = cost2.length;
         int dp[] = new int[n];

@@ -6,6 +6,90 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LargerValueInarr",
+      "request": "launch",
+      "mainClass": "LargerValueInarr",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "DistanceMark",
+      "request": "launch",
+      "mainClass": "DistanceMark",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "KDistanceFromArray",
+      "request": "launch",
+      "mainClass": "KDistanceFromArray",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "MergeStrings",
+      "request": "launch",
+      "mainClass": "MergeStrings",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "MinimumAverage",
+      "request": "launch",
+      "mainClass": "MinimumAverage",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "ReverseBit",
+      "request": "launch",
+      "mainClass": "BitManipulation.ReverseBit",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "Count1",
+      "request": "launch",
+      "mainClass": "BitManipulation.Count1",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "BinaryNo",
+      "request": "launch",
+      "mainClass": "BitManipulation.BinaryNo",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "SubsetSum",
+      "request": "launch",
+      "mainClass": "BitManipulation.SubsetSum",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "SetSum",
+      "request": "launch",
+      "mainClass": "BitManipulation.SetSum",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "ValidTriagles",
+      "request": "launch",
+      "mainClass": "ValidTriagles",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "Triagle",
+      "request": "launch",
+      "mainClass": "Triagle",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
       "name": "SortStrVowels",
       "request": "launch",
       "mainClass": "SortStrVowels",
