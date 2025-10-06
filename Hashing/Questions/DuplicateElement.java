@@ -18,7 +18,7 @@ abs(nums[i] - nums[j]) <= valueDiff --> abs(1 - 1) <= 0
  */
 package Hashing.Questions;
 
-import java.util.HashMap;
+//import java.util.HashMap;
 
 public class DuplicateElement {
     public static boolean containsNearbyAlmostDuplicate1(int[] arr, int indexDiff, int valueDiff) {
@@ -34,8 +34,8 @@ public class DuplicateElement {
 
     
     public static boolean containsNearbyAlmostDuplicate(int[] arr, int indexDiff, int valueDiff) {
-        HashMap<Integer,Integer> m = new HashMap<>();
-        for(int i = 0; i < arr.length; i++) {
+        //HashMap<Integer,Integer> m = new HashMap<>();
+        for(int i = 0; i < arr.length;) {
             
             //if(Math.abs((long)i - m.get(arr[i]) <= indexDiff) && Math.abs(arr[i] - m.containsValue(arr[i]) <= valueDiff))
             return true;

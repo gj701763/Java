@@ -1,7 +1,6 @@
 package BitManipulation;
 
-import java.util.ArrayList;
-import java.util.List;
+//import java.util.List;
 
 /*
  * Sum of All Subset XOR Totals
@@ -21,7 +20,7 @@ public class SubsetSum {
         int n = arr.length;
 
         int total = 1 << n; // total subsets = 2^n
-     int s = 0;
+        int s = 0;
      
         for (int mask = 0; mask < total; mask++) {
     
@@ -33,6 +32,7 @@ public class SubsetSum {
             }
             s += sum;
         }
+        System.out.println(s);
         
         
     }

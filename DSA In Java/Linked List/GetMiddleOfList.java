@@ -11,7 +11,7 @@ public class GetMiddleOfList {
 
     public static int getMiddle(Node head) {
         if (head == null)
-            return head.data;
+            return -1;
         Node slow = head;
         Node fast = head.next;
 

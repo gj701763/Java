@@ -1,4 +1,4 @@
-import java.util.*;
+//import java.util.*;
 
 public class MergeStrings {
     public static String mergeAlternately(String word1, String word2) {

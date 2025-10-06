@@ -1,8 +1,9 @@
 import java.util.*;
 public class PrimeNo {
-    public static String isPrime(int n){
-
-        if(n == 1) {
+    public static String isPrime(int n)
+    {
+        if(n == 1) 
+        {
             return "is not a prime number ";
         }
 

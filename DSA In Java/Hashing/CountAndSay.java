@@ -7,10 +7,8 @@ public class CountAndSay {
         if(n == 1) return Integer.toString(n);
             int ch = 1;
             int count = 0;
-            if(ch == ch) {
-                count++;
-                ch++;
-            }
+            count++;
+            ch++;
             map.put(count, ch);
             sb.append(map);
         

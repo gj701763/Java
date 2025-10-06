@@ -1,11 +1,11 @@
 package Hashing.Questions;
 
-import java.util.ArrayList;
-import java.util.Collection;
 import java.util.HashMap;
-import java.util.List;
+// import java.util.ArrayList;
+// import java.util.Collection;
+// import java.util.List;
 
-import InterviewQue.String.string;
+//import InterviewQue.String.string;
 
 /* Given an array of length n and a target, return a pair(indices) whose sum is equal to the target.
    if there no pair present, return -1.

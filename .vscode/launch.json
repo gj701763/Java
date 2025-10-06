@@ -6,6 +6,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Atm_Interface",
+      "request": "launch",
+      "mainClass": "Tacks.Atm_Interface",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "Task1",
+      "request": "launch",
+      "mainClass": "Tacks.Task1",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "StrickPalindrom",
+      "request": "launch",
+      "mainClass": "Leetcode.StrickPalindrom",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "Pyramid",
+      "request": "launch",
+      "mainClass": "Pyramid",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "PrimePairs",
+      "request": "launch",
+      "mainClass": "PrimePairs",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
       "name": "LargerValueInarr",
       "request": "launch",
       "mainClass": "LargerValueInarr",
