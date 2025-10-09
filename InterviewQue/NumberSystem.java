@@ -1,9 +1,17 @@
- //Write a java program to display 1 to nth Prime Number.
+package InterviewQue;
+/*
+ * 
+Prime number, perfect number, armstrong number, duck number, 
+happy number, spy number, strong number, palindrome number, reverse number,
+Q. 1    check a single number
+Q. 2 Display from 1 to n
+
+
+ */
 
 import java.util.Scanner;
 
-public class Gst {
-
+public class NumberSystem {
     private static boolean isprime(int num)
     {
         for(int i = 2; i * i <= num; i++) 
@@ -73,5 +81,4 @@ public class Gst {
 
         sc.close();
     }
-
 }

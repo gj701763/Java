@@ -26,7 +26,12 @@ public class ListSorting {
         n.add(new Student(15, "Gajanan"));
 
         // Sort by roll number
-        Collections.sort(n, (a, b) -> Integer.compare(b.roll, a.roll));
+        Collections.sort(n, new Comparator<Student>() {
+            @Override
+            public int compare(Student a, Student b) {
+                return b.roll - a.roll;
+            }
+        });
 
         for (Student s : n) {
             System.out.println(s);

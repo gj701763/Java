@@ -1,4 +1,4 @@
-package InterviewQue.String;
+package InterviewQue;
 
 public class string {
     public static void main(String[] args) {

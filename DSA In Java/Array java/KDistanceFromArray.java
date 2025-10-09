@@ -23,7 +23,7 @@ public class KDistanceFromArray
         
         for (int i = 0; i < n; i++) 
         {
-            if (marked[i]) result.add(i);
+            if (marked[i]) result.add(Integer.valueOf(i));
         }
         return result;
     }
