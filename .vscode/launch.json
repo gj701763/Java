@@ -6,6 +6,117 @@
   "configurations": [
     {
       "type": "java",
+      "name": "PowerFun",
+      "request": "launch",
+      "mainClass": "PowerFun",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "SumOfArray",
+      "request": "launch",
+      "mainClass": "SumOfArray",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "snekeLadder",
+      "request": "launch",
+      "mainClass": "MiniProject.snekeLadder",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "GuessNumber",
+      "request": "launch",
+      "mainClass": "MiniProject.GuessNumber",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "SortingStuExam",
+      "request": "launch",
+      "mainClass": "SortingStuExam",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "SelectedMax",
+      "request": "launch",
+      "mainClass": "SelectedMax",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "ReverseArray",
+      "request": "launch",
+      "mainClass": "ReverseArray",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "work",
+      "request": "launch",
+      "mainClass": "work",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "request": "attach",
+      "name": "Attach by Process ID",
+      "processId": "${command:PickJavaProcess}"
+    },
+    {
+      "type": "java",
+      "name": "Attach",
+      "request": "attach",
+      "hostName": "localhost",
+      "port": "<debug port of the debuggee>"
+    },
+    {
+      "type": "java",
+      "name": "PatternPrinting",
+      "request": "launch",
+      "mainClass": "PatternPrinting",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "PrintPattern",
+      "request": "launch",
+      "mainClass": "PrintPattern",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "HolloSleepDiamond",
+      "request": "launch",
+      "mainClass": "HolloSleepDiamond",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "UniquePath",
+      "request": "launch",
+      "mainClass": "UniquePath",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "ChangeChar",
+      "request": "launch",
+      "mainClass": "Hashing.HashMap.ChangeChar",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "FirstEnum",
+      "request": "launch",
+      "mainClass": "Enum.FirstEnum",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
       "name": "NumberSystem",
       "request": "launch",
       "mainClass": "InterviewQue.NumberSystem",

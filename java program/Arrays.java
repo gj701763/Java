@@ -29,5 +29,10 @@ public class Arrays {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'asList'");
     }
+
+    public static void sort(int[] sorted) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'sort'");
+    }
     
 }
