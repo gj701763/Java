@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MaxSumDistict",
+      "request": "launch",
+      "mainClass": "MaxSumDistict",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
       "name": "PowerFun",
       "request": "launch",
       "mainClass": "PowerFun",

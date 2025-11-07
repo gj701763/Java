@@ -38,8 +38,23 @@ public class work {
     }
 
     public static void main(String[] args) {
-        int[] arr = { 7, 1, 5, 4, 3, 4, 6, 0, 9, 5, 8, 2 };
-        int[] res = getSneakyNumbers(arr);
-        print(res);
+        int[][] arr = { { 7, 1, 5 }, { 4, 3, 4 }, { 6, 0, 9 } };
+        int[][] arr2 = { { 7, 1, 5 }, { 4, 3, 4 }, { 6, 0, 9 } };
+        int m = arr.length;
+        int n = arr[0].length;
+        int[][] arr3 = new int[m][n];
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                arr3[i][j] = arr[i][j] + arr2[i][j];
+            }
+        }
+
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                System.out.print(arr3[i][j] + " ");
+            }
+            System.out.println();
+        }
+
     }
 }
