@@ -14,8 +14,11 @@ Output: 2
  */
 import java.util.*;
 
+//import InterviewQue.string;
+
 public class SubArryEqualK {
 
+    @SuppressWarnings("unused")
     private static int subarray(int[] arr, int k) {
         HashMap<Integer, Integer> map = new HashMap<>();
         int count = 0, sum = 0;
@@ -30,6 +33,20 @@ public class SubArryEqualK {
         return count;
     }
 
+    public static boolean subarray1(int[] arr, int k) {
+        Set<Integer> set = new HashSet<>();
+        int sum = 0;
+        for (int i = 0; i < arr.length; i++) {
+            sum += arr[i];
+            if (set.contains(sum - k)) {
+                return true;
+            } else
+                set.add(sum);
+        }
+
+        return false;      
+    }
+
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
             System.out.print("Enter the size of array is : ");
@@ -41,7 +58,8 @@ public class SubArryEqualK {
             }
             System.out.print("Enter the sum of window is : ");
             int k = sc.nextInt();
-            System.out.println(subarray(arr, k));
+            // System.out.println(subarray(arr, k));
+            System.out.println(subarray1(arr, k));
         }
     }
 }

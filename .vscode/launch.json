@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CountSubArrWithSameDistict",
+      "request": "launch",
+      "mainClass": "CountSubArrWithSameDistict",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
       "name": "MaxSumDistict",
       "request": "launch",
       "mainClass": "MaxSumDistict",

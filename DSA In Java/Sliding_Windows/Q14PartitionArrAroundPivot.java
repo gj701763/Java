@@ -26,24 +26,25 @@ public class Q14PartitionArrAroundPivot
     }
     public static void main(String[] args) 
     {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the size of array: ");
-        int n = sc.nextInt();
-        int[] arr = new int[n];
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.print("Enter the size of array: ");
+            int n = sc.nextInt();
+            int[] arr = new int[n];
 
-        System.out.print("Enter the array elements: ");
-        for (int i = 0; i < n; i++) {
-            arr[i] = sc.nextInt();
-        }
+            System.out.print("Enter the array elements: ");
+            for (int i = 0; i < n; i++) {
+                arr[i] = sc.nextInt();
+            }
 
-        System.out.print("Enter the pivot: ");
-        int pivot = sc.nextInt();
+            System.out.print("Enter the pivot: ");
+            int pivot = sc.nextInt();
 
-        partitionArray(arr, pivot);
+            partitionArray(arr, pivot);
 
-        System.out.print("Partitioned array: ");
-        for (int num : arr) {
-            System.out.print(num + " ");
+            System.out.print("Partitioned array: ");
+            for (int num : arr) {
+                System.out.print(num + " ");
+            }
         }
     }
 
