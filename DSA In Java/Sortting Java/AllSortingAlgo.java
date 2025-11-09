@@ -1,5 +1,7 @@
 //package DSA In Java.Sortting Java;
 
+import java.util.Arrays;
+
 public class AllSortingAlgo {
     
     public static void print(int[] arr) {
