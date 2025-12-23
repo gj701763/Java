@@ -17,7 +17,6 @@ public class InsertionSort {
             for(int i = 0; i < size; i++) {
                 arr[i] = sc.nextInt();
             }
-
             // Insertion Sorting 
             for(int i = 1; i < arr.length; i++) {
                 int current = arr[i];

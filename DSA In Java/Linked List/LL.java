@@ -78,7 +78,7 @@ public class LL {         //   Linked List
         }
         secNode.next = null;
     }
-    public int getsize() {
+    public int getsize() {                  // Size 
         return size;
     }
     

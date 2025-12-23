@@ -44,7 +44,7 @@ public class Prefix_Sum {
             }
 
             //printArray(arr);
-           // int[] ans = prefix_sumArray(arr);
+           // int[] ans = prefix_sumArra(arr);
            int[] ans = prefix_sumArrayS(arr);
             System.out.print("Sum of prefix array is : ");
             printArray(ans);
@@ -61,3 +61,5 @@ public class Prefix_Sum {
         }
     }
 }
+
+

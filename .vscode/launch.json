@@ -6,6 +6,104 @@
   "configurations": [
     {
       "type": "java",
+      "name": "IteratorClass",
+      "request": "launch",
+      "mainClass": "IteratorClass",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "singletonClass",
+      "request": "launch",
+      "mainClass": "OOP.singletonClass",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "UtilityClass",
+      "request": "launch",
+      "mainClass": "OOP.UtilityClass",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "CycleSort",
+      "request": "launch",
+      "mainClass": "CycleSort",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "LastStoneWeight",
+      "request": "launch",
+      "mainClass": "LastStoneWeight",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "JustOneMiss",
+      "request": "launch",
+      "mainClass": "JustOneMiss",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "Q35FrequencyDigit",
+      "request": "launch",
+      "mainClass": "Q35FrequencyDigit",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "InsertBinary",
+      "request": "launch",
+      "mainClass": "InsertBinary",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "PeekElement",
+      "request": "launch",
+      "mainClass": "PeekElement",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "FloorSquare",
+      "request": "launch",
+      "mainClass": "FloorSquare",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "RotatePivot",
+      "request": "launch",
+      "mainClass": "RotatePivot",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "Leetcode2900",
+      "request": "launch",
+      "mainClass": "Leetcode2900",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "SubStringWithDist",
+      "request": "launch",
+      "mainClass": "SubStringWithDist",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
       "name": "CountSubArrWithSameDistict",
       "request": "launch",
       "mainClass": "CountSubArrWithSameDistict",

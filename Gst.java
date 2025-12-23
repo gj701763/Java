@@ -4,9 +4,15 @@ public class Gst {
 
     
     public static void main(String[] args) {
-        //int arr[] = {1,3,2,1,3,2,2};
-        
-        System.out.println(10 % 3);
-        S
+    
+        int arr[] = new int[5];
+        int n = 5;
+        while(n > 0)
+        {
+            arr[n] = n;
+            n--;
+        }
+
+        System.out.println(arr[n]);
     }
 }

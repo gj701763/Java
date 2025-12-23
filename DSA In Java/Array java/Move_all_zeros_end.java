@@ -10,15 +10,15 @@ public class Move_all_zeros_end {
     }
 
     static void Move_to_End(int[] arr) {
-        int nonZeroIndex = 0;
+        int j = 0;
         for (int i = 0; i < arr.length; i++) { // Fix: changed <= to <
             if (arr[i] != 0) {
-                if (i != nonZeroIndex) {
+                if (i != j) {
                     int temp = arr[i];
-                    arr[i] = arr[nonZeroIndex];
-                    arr[nonZeroIndex] = temp;
+                    arr[i] = arr[j];
+                    arr[j] = temp;
                 }
-                nonZeroIndex++;
+                j++;
             }
         }
     }

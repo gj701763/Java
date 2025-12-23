@@ -39,6 +39,19 @@ public class MaxSumSubArray {
         System.out.println();
     }
 
+    static int maxSumArr(int arr[])
+    {
+        int maxSum = arr[0];
+        int currSum = arr[0];
+        for(int i = 0; i < arr.length; i++)
+        {
+            currSum = Math.max(arr[i], arr[i]+currSum);
+            maxSum = Math.max(maxSum, currSum);
+        }
+
+        return maxSum;
+    }
+
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
             System.out.print("Enter the size of the array: ");
@@ -50,7 +63,8 @@ public class MaxSumSubArray {
                 arr[i] = sc.nextInt();
             }
 
-            findMaxSubArray(arr);
+            //findMaxSubArray(arr);
+            System.out.println(maxSumArr(arr));
         }
     }
 }

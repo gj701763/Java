@@ -3,7 +3,8 @@ public class BinarySearch_firth_orr {
 
     private static int binarySearchFirstO(int arr[], int tar) {
         int n = arr.length, left = 0, right = n - 1, idx = -1;
-        while (left <= right) {
+        while (left <= right) 
+        {
             int mid = left + (right - left) / 2;
             if (arr[mid] == tar) {
                 idx = mid;
