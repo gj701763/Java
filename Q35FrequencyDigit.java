@@ -14,27 +14,18 @@ public class Q35FrequencyDigit
     }
     public static void main(String[] args)
     {
-        int arr[] = {1,0,2,1,2,0,0,2,1,2,0};
-        int low = 0, mid = 0, high = arr.length-1;
-
-        while(mid <= high)
+        int arr[] = {1,0,1,0,1,1,0,1};
+        int j = 0;
+        for(int i = 0; i < arr.length; i++)
         {
-            if(arr[mid] == 0)
+            if(arr[i] != 0)
             {
-                swap(arr, mid, low);
-                low++;
-                mid++;
-            }else if(arr[mid] == 1)
-            {
-                mid++;
-            }else
-            {
-                swap(arr, high, mid);
-                high--;
+                int temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
+                j++;
             }
         }
-        for(int num : arr)
-            System.out.print(num+ " ");
-        
+        for(int n : arr) System.out.print(n+" ");
     }
 }

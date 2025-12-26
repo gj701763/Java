@@ -6,6 +6,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CompanyManagementSystem",
+      "request": "launch",
+      "mainClass": "MiniProject.CompanyManagementSystem",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "Supers",
+      "request": "launch",
+      "mainClass": "OOP.Supers",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "Super",
+      "request": "launch",
+      "mainClass": "OOP.Super",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
+      "name": "WaveArray",
+      "request": "launch",
+      "mainClass": "WaveArray",
+      "projectName": "Java Language_22c4d893"
+    },
+    {
+      "type": "java",
       "name": "IteratorClass",
       "request": "launch",
       "mainClass": "IteratorClass",

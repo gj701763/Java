@@ -1,0 +1,66 @@
+Mini Project Title :-  Company Management System
+Project Objective :-  Design and implement a Company Management System using Java OOP concepts up to Interface to manage employees, departments, salaries, and performance details without using collections.
+
+
+OOP Concepts to be Used :- 
+Class & Object
+Constructor
+Encapsulation
+Inheritance
+Method Overriding
+Interface
+this keyword
+static members
+Array of Objects
+
+
+Project Description A company wants a simple console-based system to manage:
+Employee records
+Department assignment
+Salary calculations
+Performance and promotions
+Each employee belongs to one department and has performance details.
+
+Interface: CompanyRules
+interface CompanyRules {
+    void addEmployee();
+    void displayEmployee();
+    void calculateSalary();
+    void updatePerformance();
+    void promoteEmployee();
+}
+
+Class Structure :- 
+1.Employee Class
+empId
+empName
+baseSalary
+department
+rating
+totalSalary
+
+2️.Department Class
+deptId
+deptName
+
+3.Company Class
+Implements CompanyRules
+Manages all logical operations
+
+Perform This Operations :- 
+1.Add new employee
+2.Display all employees
+3.Search employee by ID
+4.Update employee name
+5.Update department
+6.Delete employee
+7.Count total employees
+8.Calculate salary with bonus
+
+9.Deduct salary for low performance
+10.Display highest salary employee
+11.Display lowest salary employee
+12.Update employee rating
+13.Promote employee based on rating
+14.Display department-wise employee count
+15.Display employees of a specific department
