@@ -6,15 +6,10 @@ import java.util.*;
 
 interface CompanyRules {
     void addEmployee();
-
     void calculateSalaryWithBonus();
-
     void displayEmployee();
-
     void calculateSalary();
-
     void updatePerformance();
-
     void promoteEmployee();
 }
 
@@ -485,8 +480,7 @@ public class CompanyManagementSystem {
                         sc.nextLine();
                         String deptName = sc.nextLine();
                         found = false;
-                        System.out.println("\n--- Listing Employees for Department: " + deptName + " ---");
-
+                        System.out.println("---- Listing Employees for Department: " + deptName + " ---");
                         for (int i = 0; i < c.getEmployeeCount(); i++) {
                             Employee currentEmp = c.getEmployees()[i];
                             if (currentEmp.getDept() != null

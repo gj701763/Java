@@ -34,8 +34,8 @@ public class ArragePo {
 
     int i = 0, po = 0, neg = 0;
     while(i < n) {
-      arr[i++] = pos.get(po);
-      arr[i++] = ne.get(neg);
+      arr[i++] = pos.get(po++);
+      arr[i++] = ne.get(neg++);
     }
 
     return arr;

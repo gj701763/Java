@@ -1,101 +1,160 @@
+
 //package DSA In Java.Tree;
 import java.util.*;
+
 public class Implementation {
 
-    static class  Node {
+    public static class Node {
         int data;
-        Node left;
-        Node right;
-        
-        Node(int data) {
-            this.data = data;
+        Node left, right;
+
+        public Node(int value) {
+            this.data = value;
             this.left = null;
             this.right = null;
-        }  
+        }
     }
 
     public static class BinaryTree {
-        static int idx = -1;
-        public Node bulidTree(int node[]) {
-            idx++;
-            if (idx >= node.length || node[idx] == -1) {
-                return null;
+        Node root;
+
+        public void insert(int value) {
+            Node newNode = new Node(value);
+            if (root == null) {
+                root = newNode;
+                return;
             }
-
-
-            Node newNode = new Node(node[idx]);
-            newNode.left = bulidTree(node);
-            newNode.right = bulidTree(node);
-
-            return newNode;
-        }
-        
-    }
-
-    public static void preorder(Node root) {
-        if(root == null) {
-            return;
-        }
-        System.out.print(root.data+ " ");
-        preorder(root.left);
-        preorder(root.right);
-    }
-
-    public static void inorder(Node root) {
-        if(root == null) {
-            return;
-        }
-        inorder(root.left);
-        System.out.print(root.data+" ");
-        inorder(root.right);
-
-    }
-
-    public static void postorder(Node root) {
-        if(root == null) {
-            return;
-        }
-
-        postorder(root.left);
-        postorder(root.right);
-        System.out.print(root.data+" ");
-    }
-
-    public static void levelOrder(Node root) {
-        if(root == null) return;
-        Queue<Node> a = new LinkedList<>();
-        a.add(root);
-        a.add(null);
-        while (!a.isEmpty()) {
-            Node currNode = a.remove();
-            if(currNode == null) {
-                System.out.println();
-                if(a.isEmpty()) {
+            Queue<Node> queue = new LinkedList<>();
+            queue.add(root);
+            while (!queue.isEmpty()) {
+                Node temp = queue.poll();
+                if (temp.left == null) {
+                    temp.left = newNode;
                     break;
-                }else{
-                    a.add(null);
+                } else {
+                    queue.add(temp.left);
                 }
-            }else{
-                System.out.print(currNode.data+ " ");
-                if(currNode.left != null) {
-                    a.add(currNode.left);
-                }
-                if(currNode.right != null) {
-                    a.add(currNode.right);
+                if (temp.right == null) {
+                    temp.right = newNode;
+                    break;
+                } else {
+                    queue.add(temp.right);
                 }
             }
         }
+        // Inorder Traversal (Left, Root, Right)
+        public void inorder(Node node) {
+            if (node == null)
+                return;
+            inorder(node.left);
+            System.out.print(node.data + " ");
+            inorder(node.right);
+        }
+
+        // Preorder Traversal (Root, Left, Right)
+        public void preorder(Node node) {
+            if (node == null)
+                return;
+            System.out.print(node.data + " ");
+            preorder(node.left);
+            preorder(node.right);
+        }
+
+        // Postorder Traversal (Left, Right, Root)
+        public void postorder(Node node) {
+            if (node == null)
+                return;
+            postorder(node.left);
+            postorder(node.right);
+            System.out.print(node.data + " ");
+        }
+
+        // Search for a value in the tree
+        public boolean search(Node node, int key) {
+            if (node == null)
+                return false;
+            if (node.data == key)
+                return true;
+            return search(node.left, key) || search(node.right, key);
+        }
+
+        public int size(Node root) { // size of tree
+            if (root == null)
+                return 0;
+            return 1 + size(root.left) + size(root.right);
+        }
+
+        public int height() { // size of height
+            return level(root) - 1;
+        }
+
+        public int sum(Node root) { // Sum of all tree node is
+            if (root == null)
+                return 0;
+            return root.data + sum(root.left) + sum(root.right);
+        }
+
+        public int max(Node root) { // Max in tree node
+            if (root == null)
+                return 0;
+            return Math.max(root.data, Math.max(max(root.right), max(root.left)));
+        }
+
+        public int min(Node root) // Min in tree node
+        {
+            if (root == null)
+                return Integer.MAX_VALUE;
+            return Math.min(root.data, Math.min(min(root.left), min(root.right)));
+        }
+
+        public int level(Node root) // level of tree node
+        {
+            if (root == null)
+                return 0;
+            return 1 + Math.max(level(root.left), level(root.right));
+        }
+
     }
+
+
     public static void main(String[] args) {
-        int node[] = {2,3,4,5,4,-1,-1,3,4,-1,4,5,6,-1,-1,4,6,8};
         BinaryTree tree = new BinaryTree();
-        Node root = tree.bulidTree(node);
-        //System.out.println(root.data);
-        preorder(root);
+        // 10
+        // / \
+        // 20 30
+        // / \
+        // 40 50
+        // Insert nodes
+        tree.insert( 10);
+        tree.insert(20);
+        tree.insert(30);
+        tree.insert(40);
+        tree.insert(50);
+
+        // Traversals
+        System.out.print("Inorder Traversal: ");
+        tree.inorder(tree.root);
         System.out.println();
-        inorder(root);
+
+        System.out.print("Preorder Traversal: ");
+        tree.preorder(tree.root);
         System.out.println();
-        levelOrder(root);
-        
+
+        System.out.print("Postorder Traversal: ");
+        tree.postorder(tree.root);
+        System.out.println();
+
+        System.err.println("Size of Tree is : " + tree.size(tree.root));
+        System.out.println("heigth of tree is : " + tree.height());
+
+        System.out.println("Sum of tree node is : " + tree.sum(tree.root));
+        System.out.println("Max in tree is : " + tree.max(tree.root));
+        System.err.println("Min in tree is : " + tree.min(tree.root));
+        System.out.println("Level of tree is : " + tree.level(tree.root));
+
+        // Search
+        int searchKey = 30;
+        System.out.println("Search " + searchKey + ": " + (tree.search(tree.root, searchKey) ? "Found" : "Not Found"));
     }
+
 }

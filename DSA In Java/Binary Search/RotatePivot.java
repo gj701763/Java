@@ -1,8 +1,8 @@
 /* Question 2:
 Given a sorted array rotated at some pivot (like [6, 7, 1, 2, 3, 4, 5]), search for a number x using binary search.
 Example:
- arr = [6, 7, 1, 2, 3, 4, 5], x = 3
- Output: Found at index 4
+arr = [6, 7, 1, 2, 3, 4, 5], x = 3
+Output: Found at index 4
 Explanation:In rotated arrays, one half (left or right) is always sorted.
 Check which half is sorted:
 If arr[left] <= arr[mid], left part is sorted.
@@ -43,7 +43,6 @@ public class RotatePivot
         }
         return -1; 
     }
-
     public static void main(String[] args) {
         int[] arr = { 6, 7, 1, 2, 3, 4, 5 };
         int x = 3;

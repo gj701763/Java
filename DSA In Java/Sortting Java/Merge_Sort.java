@@ -16,7 +16,6 @@ public class Merge_Sort {
             else
                 arr[k++] = b[j++];
         }
-
         while (i < a.length)
             arr[k++] = a[i++];
         while (j < b.length)
@@ -25,8 +24,7 @@ public class Merge_Sort {
 
     public static void mergeSort(int[] arr) {
         int n = arr.length;
-        if (n == 1)
-            return;
+      
         int a[] = new int[n / 2];
         int b[] = new int[n - n / 2];
         int idx = 0;
