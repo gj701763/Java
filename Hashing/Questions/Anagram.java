@@ -13,28 +13,16 @@ import java.util.*;
 public class Anagram {
     public static boolean isAnagram(String s, String t) {
         HashMap<Character, Integer> m = new HashMap<>();
-        if (s.length() != t.length())
-            return false;
-
+        if (s.length() != t.length())return false;
         for (char c : s.toCharArray()) {
-            if (m.containsKey(c)) {
-                m.put(c, m.get(c) + 1);
-            } else {
-                m.put(c, 1);
-            }
-
+            m.put(c, m.getOrDefault(c, 0) + 1);
         }
-
         for (char c : t.toCharArray()) {
-            if (!m.containsKey(c))
-                return false;
+            if (!m.containsKey(c))return false;
             m.put(c, m.get(c) - 1);
-            if (m.get(c) < 0)
-                return false;
+            if (m.get(c) < 0)return false;
         }
-
         return true;
-
     }
 
     public static void main(String[] args) {

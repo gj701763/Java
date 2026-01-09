@@ -18,4 +18,9 @@ public class Integer {
         throw new UnsupportedOperationException("Unimplemented method 'intValue'");
     }
 
+    public static Object compare(int i, int j) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'compare'");
+    }
+
 }

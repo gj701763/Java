@@ -41,14 +41,13 @@ public class TwoSum {
         int ans[] = { -1 };
         HashMap<Integer, Integer> m = new HashMap<>();
         for (int i = 0; i < n; i++) {
-            int partner = target - arr[i];
-            if (m.containsKey(partner)) {
-                ans = new int[] { i, m.get(partner) };
+            int sum = target - arr[i];
+            if (m.containsKey(sum)) {
+                ans = new int[] { i, m.get(sum) };
                 return ans;
             } else {
                 m.put(arr[i], i);
             }
-
         }
         return ans;
 
