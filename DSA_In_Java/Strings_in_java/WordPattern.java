@@ -4,8 +4,7 @@ import java.util.*;
 
 public class WordPattern {
 	public static boolean wordPattern(String pattern, String s) {
-		String regex = " "; 
-		String[] arr = s.split(regex);
+		String[] arr = s.split(" ");
 		Map<Character, String> map = new HashMap<>();
 		Set<String> usedWords = new HashSet<>();
 
@@ -30,7 +29,6 @@ public class WordPattern {
 		}
 		return true;
 	}
-
 	public static void main(String a[]) {
 		String pattern = "abba", s = "dog cat cat fish";
 		System.out.println(wordPattern(pattern, s));

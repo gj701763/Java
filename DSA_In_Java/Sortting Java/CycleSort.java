@@ -14,7 +14,6 @@ public class CycleSort {
              
                 swap(arr, i, correctIndex);
             } else {
-                
                 i++;
             }
         }

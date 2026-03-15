@@ -1,32 +1,40 @@
 package Map;
 
-/* Create a HashMap using Java HashMap class to store the following pairs(person, Age) and dishplay them.*/
 import java.util.*;
 
-public class Hashmap01 {
-    static void hashmapMethod() {
-        Map<String, Integer> mp = new HashMap<>();
-        mp.put("Gajanan" , 18);
-        mp.put("Bharat" , 19);
-        mp.put("Roshan" , 20);
-        mp.put("Manmit" , 21);
-        mp.put("Ritesh" , 22);
-
-        System.out.print(mp.get("Gajanan"));
-        mp.remove("Gajnana"); // its remove function   
-        System.out.println(mp.containsKey("Gajanan")); // true or false
-      //  mp.putIfAbsent(null, null); // if exit them add new key 
-        System.out.println(mp.keySet());
-        System.out.println(mp.values());
-        System.out.println(mp.entrySet());
-
-        for (var e : mp.entrySet()) {
-            System.out.printf("Age of %s is %d\n", e.getKey(), e.getValue());
-        }
-
-    }
-
+public class HashMap01 {
     public static void main(String[] args) {
-        hashmapMethod();
+        HashMap<String, Integer> map = new HashMap<>();
+
+        // Insertion
+        map.put("Gajanan", 20);
+        map.put("Payal", 21);
+        map.put("Siddhant", 22);
+
+        System.out.println(map);
+
+        // Searching
+        // System.out.println(map.containsKey("Gajanan"));
+        // System.out.println(map.get("Gajanan"));
+
+        // int arr[] = {1,2,3,4,5};
+        // for(int val : arr) {
+        // System.out.print(val + " ");
+        // }
+
+        // for (Map.Entry<String, Integer> e : map.entrySet()) {
+        // System.out.println(e.getKey() + " = " + e.getValue() );
+        // }
+
+        // Set<String> keys = map.keySet();
+        // for(String key : keys) {
+        // System.out.println(key+ " = " + map.get(key));
+        // }
+
+        // Remove
+
+        map.remove("Siddhant");
+        System.out.println(map);
+
     }
 }

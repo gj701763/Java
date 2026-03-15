@@ -34,6 +34,22 @@ public class PeekElement
 
         return -1;
     }
+
+    public static int binaryRotate(int arr[]) {
+        int left = 1, right = arr.length - 2;
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+            if (arr[mid - 1] <= arr[mid] && arr[mid] >= arr[mid + 1])
+                return mid;
+            if (arr[mid - 1] <= arr[mid]) {
+                left = mid + 1;
+            } else {
+                right = mid - 1;
+            }
+        }
+        return -1;
+    }
+
     public static void main(String[] args) 
     {
         int[] arr = {1,3,5,40,100,0};
